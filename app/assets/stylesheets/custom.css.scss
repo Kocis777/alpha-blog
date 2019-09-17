@@ -20,3 +20,43 @@ $navbar-default-bg: #08088A;
 .center {
   text-align: center;
 }
+
+.jumbotron {
+  background: asset_url('eevee.jpeg') 550px;
+  height: 600px;
+}
+
+.jumbotron h1{
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-xlarge{
+  font-size: 2em;
+  background-color: black;
+}
+
+.footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaaa;
+  color: #777;
+}
+
+footer a:hover{
+  color: #222;
+}
+
+footer small{
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  margin-left: 15px;
+}
